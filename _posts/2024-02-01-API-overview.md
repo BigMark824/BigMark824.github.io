@@ -2,12 +2,12 @@
 
 Hey everyone, just wanted to do a quick overview on the APIs available on GooberBlox!
 
-BaseURL = https://goober.biz/v1/
+**Base URL:** [https://goober.biz/v1/](https://goober.biz/v1/)
 
 # GET APIs
 
 ### User API
-https://goober.biz/v1/users/?id={id}
+[https://goober.biz/v1/users/?id={id}](https://goober.biz/v1/users/?id={id})
 ```json
 {
 	"ID": 1,
@@ -22,8 +22,7 @@ https://goober.biz/v1/users/?id={id}
 ```
 
 ### Presence API
-https://goober.biz/v1/presence/users/?id={id}
-
+[https://goober.biz/v1/presence/users/?id={id}](https://goober.biz/v1/presence/users/?id={id})
 Warning! This is incomplete!
 ```json
 {
@@ -38,7 +37,7 @@ Warning! This is incomplete!
 ```
 
 ### Site Statistics
-https://goober.biz/v1/stats/
+[https://goober.biz/v1/stats/](https://goober.biz/v1/stats/)
 ```json
 {
 	"data": {
@@ -52,8 +51,7 @@ https://goober.biz/v1/stats/
 ```
 
 ### Game API
-https://goober.biz/v1/game/?id={id}
-
+[https://goober.biz/v1/game/?id={id}](https://goober.biz/v1/game/?id={id})
 ```json
 {
 	"ID": 1,
@@ -70,8 +68,7 @@ https://goober.biz/v1/game/?id={id}
 ### As of now there are no publicly available POST APIs, only internal ones!
 
 # Site tests
-https://goober.biz/v1/test/{api}
-
+[https://goober.biz/v1/test/{api}](https://goober.biz/v1/test/{api})
 This is where I publicly test APIs before deploying them!
 
 ### Authentication [<span style="color:Tomato">BaseURL</span>/<span style="color:green">NewAuth</span>]
