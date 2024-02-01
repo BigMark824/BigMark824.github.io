@@ -81,7 +81,6 @@ Error [400 Bad Request]:
 {
 	"message:": "User not logged in."
 }
-
 ```
 
 Success [200 OK]:
