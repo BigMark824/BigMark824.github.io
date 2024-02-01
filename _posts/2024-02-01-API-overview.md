@@ -75,7 +75,7 @@ This is where I publicly test APIs before deploying them!
 ### Authentication
 
 #### Return Types:
-Error:
+Error [400 Bad Request]:
 
 ```json
 {
@@ -84,10 +84,10 @@ Error:
 
 ```
 
-Success:
+Success [200 OK]:
 
 ```json
 fHD6Bjsn2rrkp9O7iL4xPKhFvNMut9TKJPeXPv0N8V6pL51Kd6bOc0gpDAI8TUcC7XlnJ0TQF3dKIQBK7ipBLrHrKLa7UVxfWVWE5FeQGYXscaQu/DCwBIk1W9NV9+u7+GG77CTr1arfpzBnFUNtZqUiq8kxcMtDeCzspsVbBK398fB+6SmmcRFDY03cpisT7LkiwhEJPYkGHdkquhapWggCFz7IlPbbKtguuKb3nRky0xws8jcbqB0Kp2IODUW7HlQqpp9RFAi+ZXkrT7FTYjDvD9zXLrPHcA81v5yPklv3aeJQNBDlUNE54DRyLAXZRbKXbBP440d8b9P6A4lsOw==
 ```
 
-Upon succession the site will generate a token that validates their login to the Game Client.
+Upon succession the site will generate a sha256 + base64ed token that validates their login to the Game Client based on their session token and the internal Private Key.
