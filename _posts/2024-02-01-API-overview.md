@@ -71,7 +71,7 @@ Warning! This is incomplete!
 [https://goober.biz/v1/test/{api}](https://goober.biz/v1/test/{api})
 This is where I publicly test APIs before deploying them!
 
-### Authentication [<span style="color:Tomato">BaseURL</span>/<span style="color:green">NewAuth</span>]
+### Authentication [<span style="color:Tomato">BaseURL</span>/<span style="color:green">Test/NewAuth</span>]
 
 #### Return Types:
 Error [<span style="color:red">400 Bad Request</span>]:
