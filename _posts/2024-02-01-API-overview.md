@@ -2,6 +2,8 @@
 
 Hey everyone, just wanted to do a quick overview on the APIs available on GooberBlox!
 
+BaseURL = https://goober.biz/v1/
+
 # GET APIs
 
 ### User API
@@ -69,10 +71,11 @@ https://goober.biz/v1/game/?id={id}
 ### As of now there are no publicly available POST APIs, only internal ones!
 
 # Site tests
+https://goober.biz/v1/test/{api}
 
 This is where I publicly test APIs before deploying them!
 
-### Authentication
+### Authentication [BaseURL/NewAuth]
 
 #### Return Types:
 Error [400 Bad Request]:
