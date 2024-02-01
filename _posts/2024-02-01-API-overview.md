@@ -39,7 +39,6 @@ Warning! This is incomplete!
 
 ### Site Statistics
 https://goober.biz/v1/stats/
-
 ```json
 {
 	"data": {
@@ -75,10 +74,10 @@ https://goober.biz/v1/test/{api}
 
 This is where I publicly test APIs before deploying them!
 
-### Authentication [BaseURL/NewAuth]
+### Authentication [<span style="color:Tomato">BaseURL</span>/<span style="color:green">NewAuth</span>]
 
 #### Return Types:
-Error [400 Bad Request]:
+Error [<span style="color:red">400 Bad Request</span>]:
 
 ```json
 {
@@ -86,7 +85,7 @@ Error [400 Bad Request]:
 }
 ```
 
-Success [200 OK]:
+Success [<span style="color:green">200 OK</span>]:
 
 ```json
 fHD6Bjsn2rrkp9O7iL4xPKhFvNMut9TKJPeXPv0N8V6pL51Kd6bOc0gpDAI8TUcC7XlnJ0TQF3dKIQBK7ipBLrHrKLa7UVxfWVWE5FeQGYXscaQu/DCwBIk1W9NV9+u7+GG77CTr1arfpzBnFUNtZqUiq8kxcMtDeCzspsVbBK398fB+6SmmcRFDY03cpisT7LkiwhEJPYkGHdkquhapWggCFz7IlPbbKtguuKb3nRky0xws8jcbqB0Kp2IODUW7HlQqpp9RFAi+ZXkrT7FTYjDvD9zXLrPHcA81v5yPklv3aeJQNBDlUNE54DRyLAXZRbKXbBP440d8b9P6A4lsOw==
